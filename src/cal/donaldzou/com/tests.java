@@ -114,7 +114,7 @@ public class tests {
         get_class_in.close();
         //print in String
         //Read JSON response and print
-        JSONArray get_class_myResponse = new JSONArray(get_class_response.toString());
+        JSONArray get_class_myResponse = new JSONArray(get_class_response.toString());//
 
         //String  = "Name: "+get_user_myResponse.getString("FirstName")+" "+get_user_myResponse.getString("LastName")+"";
 
